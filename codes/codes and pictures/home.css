@@ -1,0 +1,117 @@
+#content{
+	text-align: center;
+	padding-top: 10%;
+	text-shadow: 0px 4px 3px red,
+				 0px 8px 13px white,
+				 0px 18px 13px black;
+}
+
+body{
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-image: center;
+	margin: 0; 
+}
+
+html{
+	height: 100%;
+}
+
+h1{
+	color: black;
+	font-weight:700;
+	font-size: 5em;
+}
+
+h3{
+	color: black;
+}
+
+hr{
+	width: 500px;
+	border:1px solid black; 
+}
+
+
+#nav {
+	background-color:#5a5a5a;
+	height:40px;
+	font-size:25px;
+	font-weight:bold;
+font-family: 'Short Stack', cursive;
+}
+
+
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	text-align:center;
+
+}
+
+
+li{
+	display:inline;
+	padding:20px; 
+	vertical-align:middle;
+
+}
+
+a{
+	text-decoration:none;
+	color:white;
+	padding:8px 8px 8px 8px;
+	vertical-align: middle;
+
+}
+
+a:hover{
+	color:black;
+	background-color:white;
+}
+
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+button{
+	background-color: #5a5a5a; 
+	text-decoration:none;
+	color:white;
+	vertical-align: middle;
+	font-size:25px;
+	font-weight:bold;
+	font:Tahoma;
+	padding:5px 5px 5px 5px;
+	border:none;
+}
+
+button:hover{
+	color:black;
+	background-color:white;	
+}

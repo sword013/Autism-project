@@ -1,0 +1,26 @@
+.leftside{
+    float:left;
+    width:20%;
+    text-align:center;
+    display: inline-block;
+    min-height: 70%;
+}
+.leftside a {
+    background-color: #3478BB;
+    padding:8px;
+    margin-top:1px;
+    display:block;
+    width:95%;
+    color:black;
+    font-family: 'Ranchers', cursive;
+    font-size:30px;
+}
+
+.main{
+    display: inline-block;
+    width: 80%;
+}
+
+body{
+    margin:0;
+}
